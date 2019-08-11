@@ -55,26 +55,32 @@ class Search extends React.Component {
     this.setState({ storeName: newName});
   }
 
+  backButton = () => {
+    window.location.reload(false);
+  }
+
   componentDidMount() {
     this.loadData();
   };
 
   render() {
     return (
-      <div>
+      <div className="container">
         <div>
           {this.state.allOptions &&
             <div>
-
+            <h1 className="text-center mt-5">Avalible Stores</h1>
               {this.state.stores.length ? (
                 <div>
                   {this.state.stores.map(store => (
                     <div>
                       <button
+                        className="p-0 m-2 rounded float-left"
                         onClick={() => this.openStore(store.id)}
                         storeid={store.id}
                       >
                         <img
+                          className="p-0 m-0 img-thumbnail"
                           alt="store name"
                           src={store.img}
                         />
@@ -92,7 +98,10 @@ class Search extends React.Component {
         <div>
           {this.state.oneOption &&
             <div>
-              <h1>{this.state.storeName}</h1>
+            <div className="jumbotron bg-dark mb-0 mt-5 text-white pb-3 pt-4">
+            <h1 className="d-inline">{this.state.storeName}</h1> <button className="float-right d-inline btn btn-secondary"onClick={() => this.backButton()} >Back</button>
+        </div>
+              
               {this.state.storeItems.length ? (
                 <div>
                   {this.state.storeItems.map(item => (

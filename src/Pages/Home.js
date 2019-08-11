@@ -28,6 +28,10 @@ class Home extends React.Component {
 
   render() {
     return (
+      <div className="container">
+        <div className="jumbotron bg-dark mb-0 mt-5 text-white pb-3 pt-4">
+          <h1>Stocking</h1>
+        </div>
       <div>
         {this.state.items.map(item => (
           <div>
@@ -48,7 +52,7 @@ class Home extends React.Component {
           </div>
         ))}
       </div>
-
+      </div>
 
     )
   }

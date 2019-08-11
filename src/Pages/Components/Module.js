@@ -65,8 +65,9 @@ class Module extends React.Component {
            <div>
         <button type="button" instock={this.props.instock} data-toggle="modal" data-target={"#module" + this.props.id} className="list-group-item list-group-item-action dashNote">
         {this.props.name}
-        {this.props.stocking ? (<span className="badge badge-danger">Stocking!</span>):(null)}
-        {this.props.instock ? (<span className="badge badge-success">In Stock!</span>):(<span className="badge badge-info">Out Of Stock</span>)}
+        {this.props.instock ? (<span className="badge badge-success float-right">In Stock!</span>):(<span className="badge badge-danger float-right">Out Of Stock</span>)}
+        {this.props.stocking ? (<span className="badge badge-info float-right mr-2">Stocking!</span>):(null)}
+
         </button>
 
         <div id={"module" + this.props.id} className="modal fade" role="dialog">
@@ -76,17 +77,17 @@ class Module extends React.Component {
                     <div className="modal-header">
                         <h4 className="modal-title"> {this.props.name} </h4>
                     </div>
-                    <img className="itemImg" src={this.props.imgurl} alt="Not avalible"/>
+                    <img className="customImg" src={this.props.imgurl} alt="Not avalible"/>
                     <div className="modal-body">
                         <p> {this.props.detail} </p>
                     </div>
                     <div className="modal-footer">
                         {this.props.stocking ? (
-                            <button id="remove" onClick={() => this.Remove()} type="button" className="btn btn-danger">Stop Stocking</button>
+                            <button id="remove" onClick={() => this.Remove()} type="button" className="btn btn-dark">Stop Stocking</button>
                         ):(
-                            <button id="add"  onClick={() => this.Add()} type="button" className="btn btn-success">Stock this!</button>
+                            <button id="add"  onClick={() => this.Add()} type="button" className="btn btn-info">Stock this!</button>
                         )}
-                        <button type="button" className="btn btn-primary" data-dismiss="modal">Close</button>
+                        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
 
