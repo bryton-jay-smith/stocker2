@@ -19,18 +19,43 @@ class Module extends React.Component {
         super();
         this.Remove = this.Remove.bind(this);
         this.Add = this.Add.bind(this);
+        this.state = {
+            key: 0
+        }
       }  
 
+
     Remove = () => {
-        console.log(this.props)
+        firebase.database().ref('items/' + this.props.id ).set({
+            id: this.props.id,
+            name: this.props.name ,
+            detail:this.props.detail,
+            instock:this.props.instock,
+            date:this.props.date,
+            stocked: false,
+            imgurl: this.props.imgurl,
+            strid: this.props.strid
+          });
+          window.location.reload(false);
     }
 
     Add = () => {
-        console.log(this.props)
+        firebase.database().ref('items/' + this.props.id ).set({
+            id: this.props.id,
+            name: this.props.name ,
+            detail:this.props.detail,
+            instock:this.props.instock,
+            date:this.props.date,
+            stocked: true,
+            imgurl: this.props.imgurl,
+            strid: this.props.strid
+          });
+          window.location.reload(false);
     }
 
     componentDidMount() {
         console.log(this.props);
+
     }
     
 
