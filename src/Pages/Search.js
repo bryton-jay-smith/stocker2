@@ -52,7 +52,7 @@ class Search extends React.Component {
     }
 
     this.setState({ storeItems: newItem });
-    this.setState({ storeName: newName});
+    this.setState({ storeName: newName });
   }
 
   backButton = () => {
@@ -69,7 +69,9 @@ class Search extends React.Component {
         <div>
           {this.state.allOptions &&
             <div>
-            <h1 className="text-center mt-5">Avalible Stores</h1>
+              <div className="jumbotron bg-dark mb-0 mt-5 text-white pb-3 pt-4">
+                <h1 className="d-inline mt-5">Avalible Stores</h1><a className="float-right d-inline btn btn-secondary" href="/all" >All Items</a>
+              </div>
               {this.state.stores.length ? (
                 <div>
                   {this.state.stores.map(store => (
@@ -98,10 +100,10 @@ class Search extends React.Component {
         <div>
           {this.state.oneOption &&
             <div>
-            <div className="jumbotron bg-dark mb-0 mt-5 text-white pb-3 pt-4">
-            <h1 className="d-inline">{this.state.storeName}</h1> <button className="float-right d-inline btn btn-secondary"onClick={() => this.backButton()} >Back</button>
-        </div>
-              
+              <div className="jumbotron bg-dark mb-0 mt-5 text-white pb-3 pt-4">
+                <h1 className="d-inline">{this.state.storeName}</h1> <button className="float-right d-inline btn btn-secondary" onClick={() => this.backButton()} >Back</button>
+              </div>
+
               {this.state.storeItems.length ? (
                 <div>
                   {this.state.storeItems.map(item => (

@@ -26,7 +26,10 @@ class AllItems extends React.Component {
 
   render() {
     return (
-      <div>
+            <div className="container">
+        <div className="jumbotron bg-dark mb-0 mt-5 text-white pb-3 pt-4">
+          <h1>All Items</h1>
+        </div>
         {this.state.items.map(item =>
           <Module
             id={item.id}
