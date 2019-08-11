@@ -10,6 +10,7 @@ class Search extends React.Component {
     this.state = {
       stores: [],
       storeItems: [],
+      storeName: "",
       allOptions: true,
       oneOption: false
     };
@@ -34,17 +35,24 @@ class Search extends React.Component {
     this.setState({ oneOption: true });
 
     let item = this.state.items;
+    let Name = this.state.stores;
+    let newName = "";
     let newItem = [];
 
     for (let i = 0; i < item.length; i++) {
-
       if (item[i].strid === props) {
         newItem.push(item[i]);
       }
-
     };
 
+    for (let j = 0; j < Name.length; j++) {
+      if (Name[j].id === props) {
+        newName = Name[j].name;
+      }
+    }
+
     this.setState({ storeItems: newItem });
+    this.setState({ storeName: newName});
   }
 
   componentDidMount() {
@@ -84,7 +92,8 @@ class Search extends React.Component {
         <div>
           {this.state.oneOption &&
             <div>
-              {this.state.storeItems ? (
+              <h1>{this.state.storeName}</h1>
+              {this.state.storeItems.length ? (
                 <div>
                   {this.state.storeItems.map(item => (
                     <div>
