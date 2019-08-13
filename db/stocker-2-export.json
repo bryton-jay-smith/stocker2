@@ -1,0 +1,155 @@
+{
+  "items" : [
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 0,
+      "imgurl" : "https://www.graphic.com.gh/images/2018/aug/3/Weed.jpg",
+      "instock" : false,
+      "name" : "Bubba Kush",
+      "stocked" : false,
+      "strid" : "str03"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 1,
+      "imgurl" : "https://www.graphic.com.gh/images/2018/aug/3/Weed.jpg",
+      "instock" : true,
+      "name" : "Granddaddy Purple",
+      "stocked" : true,
+      "strid" : "str03"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 2,
+      "imgurl" : "https://www.graphic.com.gh/images/2018/aug/3/Weed.jpg",
+      "instock" : true,
+      "name" : "Blue Dream",
+      "stocked" : true,
+      "strid" : "str03"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 3,
+      "imgurl" : "https://www.graphic.com.gh/images/2018/aug/3/Weed.jpg",
+      "instock" : true,
+      "name" : "Sour Diesel",
+      "stocked" : true,
+      "strid" : "str03"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 4,
+      "imgurl" : "https://www.graphic.com.gh/images/2018/aug/3/Weed.jpg",
+      "instock" : false,
+      "name" : "Jack Herer",
+      "stocked" : false,
+      "strid" : "str03"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 5,
+      "imgurl" : "https://saymakeup.studio/en/img/basic_collection2.jpg",
+      "instock" : true,
+      "name" : "Eyeliner",
+      "stocked" : true,
+      "strid" : "str01"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 6,
+      "imgurl" : "https://saymakeup.studio/en/img/basic_collection2.jpg",
+      "instock" : false,
+      "name" : "EyeShadow",
+      "stocked" : false,
+      "strid" : "str01"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 7,
+      "imgurl" : "https://saymakeup.studio/en/img/basic_collection2.jpg",
+      "instock" : true,
+      "name" : "Blush",
+      "stocked" : true,
+      "strid" : "str01"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 8,
+      "imgurl" : "https://saymakeup.studio/en/img/basic_collection2.jpg",
+      "instock" : true,
+      "name" : "Lipstick",
+      "stocked" : true,
+      "strid" : "str01"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 9,
+      "imgurl" : "https://saymakeup.studio/en/img/basic_collection2.jpg",
+      "instock" : true,
+      "name" : "Lashes",
+      "stocked" : false,
+      "strid" : "str01"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 10,
+      "imgurl" : "https://saymakeup.studio/en/img/basic_collection2.jpg",
+      "instock" : true,
+      "name" : "TEST",
+      "stocked" : true,
+      "strid" : "str02"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 11,
+      "imgurl" : "https://saymakeup.studio/en/img/basic_collection2.jpg",
+      "instock" : true,
+      "name" : "TEST",
+      "stocked" : true,
+      "strid" : "str04"
+    },
+    {
+      "date" : "7/25/20018",
+      "detail" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id" : 12,
+      "imgurl" : "https://saymakeup.studio/en/img/basic_collection2.jpg",
+      "instock" : true,
+      "name" : "TEST",
+      "stocked" : true,
+      "strid" : "str05"
+    }
+  ],
+  "stores" : [ {
+    "id" : "str01",
+    "img" : "/img/ultra.png",
+    "name" : "Ultra"
+  }, {
+    "id" : "str02",
+    "img" : "/img/premier_purchase.png",
+    "name" : "Premier Purchase"
+  }, {
+    "id" : "str03",
+    "img" : "/img/potent_solutions.png",
+    "name" : "Potent Solutions"
+  }, {
+    "id" : "str04",
+    "img" : "/img/le_supre.png",
+    "name" : "Le Supre"
+  }, {
+    "id" : "str05",
+    "img" : "/img/spendless.png",
+    "name" : "SpendLess"
+  } ]
+}

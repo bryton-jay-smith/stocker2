@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./Pages/Home";
 import Search from "./Pages/Search";
+import AllItems from "./Pages/AllItems";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route exact path="/home/" component={Home} />
         <Route exact path="/search/" component={Search} />
+        <Route exact path="/all/" component={AllItems} />
 
 
       </Router>
